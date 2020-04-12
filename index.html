@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessibilidade</title>
+    <link rel="stylesheet" href="assets/css/acessibilidade.css">
+</head>
+<body>
+    <button id="aumentar">A+</button>
+    <button id="normal">A</button>
+    <button id="diminuir">A-</button>
+    
+    <p>
+        Só será afetado o elemento que tiver classe CSS <code>.acessibilidade</code>
+    </p>
+    
+    <a href="" class="acessibilidade">Link</a>
+
+    <p class="acessibilidade"> 
+        <span><strong>Este paragrafo ESTÁ com a classe de acessibilidade.</strong></span>       
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est accusantium quo fugit assumenda itaque ullam, adipisci voluptatum officiis deserunt non reprehenderit perferendis iusto architecto. Molestias eius aliquam facere harum voluptate!
+    </p>
+
+    <p>
+        <span><strong>Este paragrafo NÃO ESTÁ com a classe de acessibilidade.</strong></span>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia voluptatibus id iusto architecto perspiciatis fugit quibusdam dolorem aliquam accusantium sed nemo obcaecati repellat itaque, quo unde aspernatur necessitatibus corporis aperiam?
+    </p>
+
+    <br />
+
+    <span class="acessibilidade">Esta SPAN está com a classe de <code>.acessibilidade</code></span>
+
+    <script src="assets/js/acessibilidade.js"></script>
+</body>
+</html>
