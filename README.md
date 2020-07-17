@@ -1,26 +1,24 @@
 # Accessibility WebPage
-Este é um simples plugin que irá ajudar você adicionar o recurso de acessibilidade para sua página Web. 
+It is a simple plugin for help you implement feature of the acessibility in your web page.
 
 # Como usar
 
-Ao clonar este projeto você verá que existe uma página index.html de exemplo. Nesta página existem três botões:
+Clone it and you will see that exist a page index.html with a sample. In this page exist three button:
 
 ![Página de exemplo](https://github.com/fabioalmeida100/AccessibilityWebPage/blob/master/assets/sample-image/sample-image.jpg?raw=true)
 
-* A+ : botão para aumentar a texto da página. Este botão precisa ter o *id="aumentar"*
-* A : botão para aumentar a texto da página. Este botão precisa ter o *id="normal"*
-* A- : botão para aumentar a texto da página. Este botão precisa ter o *id="diminuir"*
+* A+ : button for increase the font size. This button need an *id="aumentar"*
+* A : button for reset font-size. This button need an *id="normal"*
+* A- : button for decrease the font size. This button need an *id="diminuir"*
 
-Portanto, você irá criar os três botões com os ids acima para manipular o tamanho da fonte e para você marcar quais elementos serão afetados pelo aumento/diminuição da fonte, basta você colocar a classe `.acessibilidade` nos elementos HTML. Veja no exemplo abaixo:
+So, you need create three button with ids above for control the font size and for indicate for the script wich elements you want increase/decrease the font size with the class CSS `.acessibilidade` in the elements HTML. See a example below: 
 
 ```
-  <p>
-      Só será afetado o elemento que tiver classe CSS <code>.acessibilidade</code>
+  <p class="acessibilidade">
+      Increase/decrease font size!
   </p>
 
-  <a href="" class="acessibilidade">Link</a>
+  <p>
+      Nothing here <p>
+  </p>
 ```
-
-# Como funciona
-
-Neste recurso, cada elemento que possui a classe CSS `.acessibilidade` é selecionado quando se clica em alguns dos botões e é aplicado um estilo inline que alterar o atributo `fonte-size`do elemento HTML.
