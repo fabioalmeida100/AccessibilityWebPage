@@ -10,11 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/fabioalmeida100/accessibility-web-page.git"
   },
-  "keywords": [],
   "author": "Fabio Almeida <fabioalmeida@fabiodeveloper.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fabioalmeida100/accessibility-web-page/issues"
   },
-  "homepage": "https://github.com/fabioalmeida100/accessibility-web-page#readme"
+  "homepage": "https://github.com/fabioalmeida100/accessibility-web-page#readme",
+  "keywords": [
+    "accessibility",
+    "embed",
+    "javascript"
+  ]
 }
