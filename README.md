@@ -22,3 +22,4 @@ So, you need create three button with ids above for control the font size and fo
       Nothing here <p>
   </p>
 ```
+For use the plugin you need only the script `acessibilidade.js` that is in the folder `plugin`. 
