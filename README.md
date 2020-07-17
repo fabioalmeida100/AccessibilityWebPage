@@ -1,11 +1,9 @@
 # Accessibility WebPage
 It is a simple plugin for help you implement feature of the acessibility in your web page.
 
-# Como usar
+# How to use
 
 Clone it and you will see that exist a page index.html (inside folder `sample`) with a sample. In this page exist three button:
-
-![Página de exemplo](https://github.com/fabioalmeida100/AccessibilityWebPage/blob/master/sample-image/sample-image.jpg?raw=true)
 
 * A+ : button for increase the font size. This button need an *id="aumentar"*
 * A : button for reset font-size. This button need an *id="normal"*
