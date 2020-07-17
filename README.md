@@ -5,7 +5,7 @@ It is a simple plugin for help you implement feature of the acessibility in your
 
 Clone it and you will see that exist a page index.html with a sample. In this page exist three button:
 
-![Página de exemplo](https://github.com/fabioalmeida100/AccessibilityWebPage/blob/master/assets/sample-image/sample-image.jpg?raw=true)
+![Página de exemplo](https://github.com/fabioalmeida100/AccessibilityWebPage/blob/master/sample-image/sample-image.jpg?raw=true)
 
 * A+ : button for increase the font size. This button need an *id="aumentar"*
 * A : button for reset font-size. This button need an *id="normal"*
