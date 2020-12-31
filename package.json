@@ -1,6 +1,6 @@
 {
   "name": "accessibility-web-page",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "It is a simple plugin for help you implement feature of the acessibility in your web page.",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,9 @@
   "keywords": [
     "accessibility",
     "embed",
-    "javascript"
+    "javascript",
+    "html",
+    "js",
+    "web"
   ]
 }
